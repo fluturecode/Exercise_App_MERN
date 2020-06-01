@@ -9,7 +9,7 @@ import CreateUser from "./Components/CreateUser";
 
 function App() {
   return (
-    <Router>
+    <Router forceRefresh={true}>
       <div className="container">
         <Navbar />
         <br />
